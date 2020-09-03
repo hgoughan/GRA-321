@@ -3,7 +3,7 @@ background-color: cadetblue;
 }
 h1 { font-family: "Times New Roman", Times, serif;
 color: white;
-font-size: 40px;
+font-size: 60px;
 text-align: center;
 border-bottom-style: double ;
 }
@@ -14,7 +14,7 @@ h2 { font-family: Helvetica, sans-serif;
 p { font-family: Helvetica, sans-serif;
 color: white;
  }
- ul.a {
+ ul {
    list-style-type: circle;
    Background-color: Grey
    Padding: 20px
