@@ -1,21 +1,22 @@
 * {
 background-color: cadetblue;
 }
-h1 { font-family: "Times New Roman", Times, serif;
+h1 { border-bottom-style: double;
 color: white;
+font-family: "Times New Roman", Times, serif;
 font-size: 60px;
 text-align: center;
-border-bottom-style: double ;
+
 }
-h2 { font-family: Helvetica, sans-serif;
-  color: white;
+h2 { color: white;
+  font-family: Helvetica, sans-serif;
   font-size: 30px;
 }
-p { font-family: Helvetica, sans-serif;
-color: white;
+p { color: white;
+  font-family: Helvetica, sans-serif;
+
  }
- ul {
-   list-style-type: circle;
-   Background-color: Grey
+ ul { Background-color: Grey
    Padding: 20px
+   list-style-type: circle;
  }
