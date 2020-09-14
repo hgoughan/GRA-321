@@ -10,7 +10,7 @@ button {
   padding-right: 45px;
 }
 .container {
-  background-image:href="./img/Halligan";
+  background-image:url(https://hgoughan.github.io/gra-321/code-exercises/img/halligan.jpg);
   background-position:center;
   background-size:auto;
   margin: 0 auto;
@@ -37,7 +37,7 @@ p {
 }
 @media screen and (max-width: 1000px) {
   body{
-    background-image: image(:href="./img/Halligan");
+    background-image: image(https://github.com/hgoughan/gra-321/blob/master/Code_Exercises/img/Halligan%20.jpg);
     color:firebrick;
  }
 }
