@@ -1,11 +1,17 @@
-body{background-color:AntiqueWhite;
+body{background-color: AntiqueWhite;
 }
 button {
-  background-color:aquamarine;
+  background-color: aquamarine;
   border: 15px;
   font-family: "Times New Roman", Times, serif;
   padding-top: 45px;
   padding-left: 50px;
   padding-right: 50px;
   padding-right: 45px;
+}
+.padding-hover:hover {
+  background-color: tomato
+}
+.visted-color:visited {
+  rgba(255, 99, 71, 0.5)
 }
