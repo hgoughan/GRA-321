@@ -7,7 +7,7 @@ button {
   padding: 1em 2em 1em 2em;
 }
 .container {
-  background-image:url(https://hgoughan.github.io/gra-321/Code_Exercises/img/Halligan.jpg);
+  background-image: url(https://hgoughan.github.io/gra-321/Code_Exercises/img/Halligan.jpg);
   background-position:center;
   background-size:auto;
   margin: 0 auto;
@@ -33,13 +33,13 @@ p {
 }
 @media screen and (max-width: 1000px) {
   body{
-    background-image: image(https://hgoughan.github.com/gra-321/Code_Exercises/img/Halligan2.jpg);
+    background-image: url(https://hgoughan.github.com/gra-321/Code_Exercises/img/Halligan2.jpg);
     color:firebrick;
  }
 }
 @media screen and (max-width:500px){
   body{
-    background-image:url(https://i.guim.co.uk/img/media/9bf27fc25cbe59c5ff3db35ebc5231e153eca7ad/0_276_4288_2572/master/4288.jpg?width=1200&quality=85&auto=format&fit=max&s=371d76baa5df7d4f77f8eb22e86f05af);
+    background-image: url(https://i.guim.co.uk/img/media/9bf27fc25cbe59c5ff3db35ebc5231e153eca7ad/0_276_4288_2572/master/4288.jpg?width=1200&quality=85&auto=format&fit=max&s=371d76baa5df7d4f77f8eb22e86f05af);
     color:darkblue;
   }
 }
