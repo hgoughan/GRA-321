@@ -4,10 +4,10 @@ button {
   background-color: aquamarine;
   border: 15px;
   font-family: "Times New Roman", Times, serif;
-  padding: 20em 40em 20em 40em;
+  padding: 1em 2em 1em 2em;
 }
 .container {
-  background-image:url(https://hgoughan.github.io/gra-321/code_exercises/img/halligan2.jpg);
+  background-image:url(https://hgoughan.github.io/gra-321/Code_Exercises/img/Halligan .jpg);
   background-position:center;
   background-size:auto;
   margin: 0 auto;
@@ -33,7 +33,7 @@ p {
 }
 @media screen and (max-width: 1000px) {
   body{
-    background-image: image(https://hgoughan.github.com/gra-321/Code_Exercises/img/Halligan .jpg);
+    background-image: image(https://hgoughan.github.com/gra-321/Code_Exercises/img/Halligan2.jpg);
     color:firebrick;
  }
 }
