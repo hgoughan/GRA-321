@@ -9,7 +9,7 @@ button {
 .container {
   background-image: url(https://hgoughan.github.io/gra-321/Code_Exercises/img/Halligan.jpg);
   background-position:center;
-  background-size:auto;
+  background-size:cover;
   margin: 0 auto;
 }
 h2 {
