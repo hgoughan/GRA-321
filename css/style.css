@@ -1,7 +1,7 @@
-* {
+body {
 background-color: cadetblue;
 }
-h1 { border-bottom-style: double;
+h1 { border-bottom-style: dotted;
 color: white;
 font-family: "Times New Roman", Times, serif;
 font-size: 60px;
@@ -14,9 +14,11 @@ h2 { color: white;
 }
 p { color: white;
   font-family: Helvetica, sans-serif;
+  border-top:none;
+  border-bottom: none;
 
  }
  ul { Background-color: Grey
-   Padding: 20px
+   Padding: 10px
    list-style-type: circle;
  }
