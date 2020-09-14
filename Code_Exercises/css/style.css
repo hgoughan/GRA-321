@@ -7,7 +7,7 @@ button {
   padding: 20em 40em 20em 40em;
 }
 .container {
-  background-image:url(https://hgoughan.github.io/gra-321/code_exercises/img/halligan.jpg);
+  background-image:url(https://hgoughan.github.io/gra-321/code_exercises/img/halligan2.jpg);
   background-position:center;
   background-size:auto;
   margin: 0 auto;
@@ -29,11 +29,11 @@ p {
   top: 100px;
   margin: 0 auto;
 }
-.visted-color:visited { color:yellow;
+.visted-color:visited { color:purple;
 }
 @media screen and (max-width: 1000px) {
   body{
-    background-image: image(https://github.com/hgoughan/gra-321/blob/master/Code_Exercises/img/Halligan%20.jpg);
+    background-image: image(https://hgoughan.github.com/gra-321/Code_Exercises/img/Halligan .jpg);
     color:firebrick;
  }
 }
