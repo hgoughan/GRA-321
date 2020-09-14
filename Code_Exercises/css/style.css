@@ -13,7 +13,7 @@ button {
   background-image:href="./img/Halligan";
   background-position:center;
   background-size:auto;
-  margin: auto
+  margin: 0 auto;
 }
 h2 {
   color:AntiqueWhite;
@@ -22,8 +22,28 @@ h2 {
   text-align: center;
 }
 .padding-hover:hover {
-  background-color: tomato
+  background-color: tomato;
+}
+p {
+  background-color: HoneyDew
+  color: coral;
+  font-family: cursive,sans-serif;
+  font-size: 60px;
+  top: 100px;
+  margin: 0 auto;
 }
 .visted-color:visited {
-  rgba(255, 99, 71, 0.5)
+  rgba(255, 99, 71, 0.5);
+}
+@media screen and (max-width: 1000px) {
+  body{
+    background-image: image(:href="./img/Halligan");
+    color:firebrick;
+ }
+}
+@media screen and (max-width:500px){
+  body{
+    background-image:url(https://i.guim.co.uk/img/media/9bf27fc25cbe59c5ff3db35ebc5231e153eca7ad/0_276_4288_2572/master/4288.jpg?width=1200&quality=85&auto=format&fit=max&s=371d76baa5df7d4f77f8eb22e86f05af);
+    color:darkblue;
+  }
 }
