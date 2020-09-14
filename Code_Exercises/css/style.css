@@ -9,6 +9,18 @@ button {
   padding-right: 50px;
   padding-right: 45px;
 }
+.container {
+  background-image:href="./img/Halligan";
+  background-position:center;
+  background-size:auto;
+  margin: auto
+}
+h2 {
+  color:AntiqueWhite;
+  text-size:45px;
+  position: relative;
+  text-align: center;
+}
 .padding-hover:hover {
   background-color: tomato
 }
