@@ -4,13 +4,10 @@ button {
   background-color: aquamarine;
   border: 15px;
   font-family: "Times New Roman", Times, serif;
-  padding-top: 45px;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-right: 45px;
+  padding: 20em 40em 20em 40em;
 }
 .container {
-  background-image:url(https://hgoughan.github.io/gra-321/code-exercises/img/halligan.jpg);
+  background-image:url(https://hgoughan.github.io/gra-321/code_exercises/img/halligan.jpg);
   background-position:center;
   background-size:auto;
   margin: 0 auto;
@@ -18,8 +15,8 @@ button {
 h2 {
   color:AntiqueWhite;
   text-size:45px;
-  position: relative;
   text-align: center;
+  position: relative;
 }
 .padding-hover:hover {
   background-color: tomato;
@@ -32,8 +29,7 @@ p {
   top: 100px;
   margin: 0 auto;
 }
-.visted-color:visited {
-  rgba(255, 99, 71, 0.5);
+.visted-color:visited { color:yellow;
 }
 @media screen and (max-width: 1000px) {
   body{
