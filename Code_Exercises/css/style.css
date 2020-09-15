@@ -10,7 +10,8 @@ button {
   background-image: url(https://hgoughan.github.io/gra-321/Code_Exercises/img/Halligan.jpg);
   background-position:center;
   background-size:cover;
-  hieght:1000px
+  height:588px;
+  width:1373;
   margin: 0 auto;
 }
 h2 {
@@ -23,8 +24,7 @@ h2 {
   background-color: tomato;
 }
 p {
-  background-image: url(https://hgoughan.github.com/gra-321/Code_Exercises/img/Halligan2.jpg);
-  color: honeydew;
+  color: aquamarine;
   font-family: cursive,sans-serif;
   font-size: 60px;
   top: 100px;
@@ -34,7 +34,7 @@ p {
 }
 @media screen and (max-width: 1000px) {
   body{
-    background-image: url(https://hgoughan.github.com/gra-321/Code_Exercises/img/Halligan2.jpg);
+    background-image: url(https://hgoughan.github.io/gra-321/Code_Exercises/img/Halligan2.jpg);
     color:firebrick;
  }
 }
