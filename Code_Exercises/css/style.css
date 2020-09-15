@@ -18,6 +18,8 @@ button {
   background-image: url("https://hgoughan.github.io/gra-321/Code_Exercises/img/Penguin.png");
   background-position: center;
   background-size: cover;
+  height:487px
+  width:375px
   margin: 0 auto;
 }
 h2 {
