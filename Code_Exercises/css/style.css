@@ -7,11 +7,17 @@ button {
   padding: 1em 2em 1em 2em;
 }
 .container {
-  background-image: url(https://hgoughan.github.io/gra-321/Code_Exercises/img/Halligan.jpg);
+  background-image: url("https://hgoughan.github.io/gra-321/Code_Exercises/img/Halligan.jpg");
   background-position:center;
   background-size:cover;
   height:588px;
   width:1373;
+  margin: 0 auto;
+}
+.container-2{
+  background-image: url("https://hgoughan.github.io/gra-321/Code_Exercises/img/Penguin.png");
+  background-position: center;
+  background-size: cover;
   margin: 0 auto;
 }
 h2 {
@@ -34,7 +40,7 @@ p {
 }
 @media screen and (max-width: 1000px) {
   body{
-    background-image: url(https://hgoughan.github.io/gra-321/Code_Exercises/img/Halligan2.jpg);
+    background-image: url("https://hgoughan.github.io/gra-321/Code_Exercises/img/Halligan2.jpg");
     color:firebrick;
  }
 }
