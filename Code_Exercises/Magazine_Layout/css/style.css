@@ -1,7 +1,51 @@
-* {
-
+img{
+padding-top: 8px;
+padding-left: 11px;
+padding-right: 11px;
+width: 353px;
+hieght: 236px;
 }
-
-h1 {
-
+h1{
+Font-family:"Times New Roman", Times, serif;
+Color:#707070;
+Font-size: 25px;
+Font-style: bold;
+Text-align: left;
 }
+P{
+  font-family: "Times New Roman", Times, serif;
+  color: #707070;
+  font-size:6px;
+  Font-style: regular;
+  Text-align: justify;
+  text-indent: 30px;
+  height: 212px;
+  Line-height: 7px;
+  width: 115px;
+}
+P2{
+  font-family: "Times New Roman", Times, serif;
+  color: #707070;
+  font-size:6px;
+  Font-style: regular;
+  Text-align: justify;
+  height: 212px;
+  Line-height: 7px;
+  width: 115px;
+}
+H2{
+   Font-family: "Times New Roman",Times, serif;
+   Color: #707070;
+   Font-size:6px;
+   font-style-regular;
+   Text-align: justify;
+   Text-indent: 17px; (second line)
+   Height: 15px;
+   Line-height: 7px;
+   Width: 313px;
+}
+H3{
+   Font-family: “Times New Roman”, serif;
+   Color: #707070;
+   Height: 8px;
+   Width: 103px;
