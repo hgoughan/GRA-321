@@ -37,38 +37,32 @@ img {
   Width:400px;
 
 }
-
-.w{
-Font-family:"Times New Roman", Times, serif;
-Color:#707070;
-Font-size: 3000px;
-Font-style: bold;
-margin-left: 170px;
-
+.para1:first-letter{
+  float:left;
+  font-size:80px;
+  font-weight: bold;
+  line-height: 1;
+  margin-right: 9px;
 }
-H2{
-   Font-family: "Times New Roman",Times, serif;
-   Color: #707070;
-   Font-size:20px;
-   font-style: normal;
-   Text-align: left;
-   Height: 51px;
-   Line-height: 23px;
-   Width: 1049px;
-}
+
 H3{
    Font-family: "Times New Roman",Times, serif;
    Color: #707070;
-   font-size: 20px;
+   font-size: 14px;
    font-style: normal;
-   text-align: left;
-   Height: 51px;
+    Height: 51px;
+   text-align: center;
+   margin-left: 160px;
+   padding-top: 60px;
+   position: relative;
    Width: 1049px;
 }
 H4{
    Font-family:"Times New Roman",Times, serif;
    Color: #707070;
-   font-size:17px;
+   font-size:10px;
    Height: 53px;
+   text-align: right;
+   margin-left: 760px;
    Width: 290px;
  }
