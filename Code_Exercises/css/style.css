@@ -14,10 +14,9 @@ button {
   width:1373;
   margin: 0 auto;
 }
-.container-2{
-  background-image: url("https://hgoughan.github.io/gra-321/Code_Exercises/img/Penguin.png");
-  background-position: center;
-  background-size: cover;
+img{
+  position: center;
+  size: cover;
   height:487px
   width:375px
   margin: 0 auto;
