@@ -1,3 +1,17 @@
+.flex-container{
+  display:flex;
+  margin-left: 173px;
+}
+  .flex-container > div {
+  background-color: none;
+  margin left: 120px;
+  Padding:40px;
+  height: 760px;
+  Line-height: 28px;
+  width: 427px;
+}
+
+
 img{
 padding-top: 80px;
 padding-left: 75px;
@@ -12,13 +26,12 @@ Font-size: 80px;
 Font-style: bold;
 Text-align: left;
 }
-P{
+div{
   font-family: "Times New Roman", Times, serif;
   color: #707070;
   font-size:20px;
   Font-style: normal;
   Text-align: justify;
-  text-indent: 30px;
   height: 760px;
   Line-height: 28px;
   width: 427px;
