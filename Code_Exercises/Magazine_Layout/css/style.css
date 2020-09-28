@@ -1,40 +1,50 @@
 .flex-container{
   display:flex;
-  margin-left: 173px;
+  flex-flow:row nowrap;
+  justify-content: flex-start;
+
 }
-  .flex-container > div {
+img {
+  padding-top: 80px;
+  padding-left: 75px;
+  padding-right: 75px;
+  width: 1130px;
+  height: 755px;
+}
+.para1 {
   background-color: none;
-  margin left: 120px;
-  Padding:40px;
-  height: 760px;
-  Line-height: 28px;
-  width: 427px;
-}
-
-
-img{
-padding-top: 80px;
-padding-left: 75px;
-padding-right: 75px;
-width: 1130px;
-height: 755px;
-}
-h1{
-Font-family:"Times New Roman", Times, serif;
-Color:#707070;
-Font-size: 80px;
-Font-style: bold;
-Text-align: left;
-}
-div{
-  font-family: "Times New Roman", Times, serif;
   color: #707070;
+  font-family: "Times New Roman", Times, serif;
   font-size:20px;
   Font-style: normal;
   Text-align: justify;
-  height: 760px;
   Line-height: 28px;
-  width: 427px;
+  padding: 40px;
+  margin-left: 170px;
+  height:600px;
+  Width:400px;
+}
+.para2{
+  background-color: none;
+  color: #707070;
+  font-family: "Times New Roman", Times, serif;
+  font-size:20px;
+  Font-style: normal;
+  Text-align: justify;
+  Line-height: 28px;
+  padding:40px;
+  height:600px;
+  Width:400px;
+
+}
+
+.w{
+Font-family:"Times New Roman", Times, serif;
+Color:#707070;
+Font-size: 3000px;
+Font-style: bold;
+margin-left: 170px;
+
 }
 H2{
    Font-family: "Times New Roman",Times, serif;
