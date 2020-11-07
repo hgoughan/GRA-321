@@ -1,17 +1,36 @@
-html {
-  font-size: 16px;
-  box-sizing: border-box;
+.sidenav {
+  height: 100%;
+  width: 100px;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #804A05;
+  overflow-x: hidden;
+}
+
+
+/* Side navigation links */
+.sidenav a {
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color on hover */
+.sidenav a:hover {
+  background-color: #A5967B;
+  color: #804A05;
+}
+.header-nav,#menu, #our-mission, #reviews, #locations {
+  margin-left: 100px;
+  padding-left: 20px;
 }
 
 li, ul, p {
   margin: 0;
   padding: 0;
-}
-
-body {
-  width:100%;
-  margin:0px;
-  padding:0px;
 }
 
 section {
@@ -26,7 +45,7 @@ h1 {
   font-size:2rem;
 }
 
-section h1,h2,p, ul, li {
+section h1, h2, p, ul, li {
   color:#A5967B;
 }
 
@@ -133,6 +152,7 @@ ul.menu-items a:last-of-type {
 #drink-menu, #food-menu, #get-in-touch {
   height:500px;
 }
+
 
 /*Desktop Styles*/
 
