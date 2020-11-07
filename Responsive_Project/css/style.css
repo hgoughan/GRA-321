@@ -10,13 +10,12 @@ li, ul, p {
 
 body {
   width:100%;
-  background-color: black;
   margin:0px;
   padding:0px;
 }
 
 section {
-  background-color:#F5F6DD;
+  background-color:#34312E;
   width: 100%;
   margin: 0 auto;
   position: relative;
@@ -27,22 +26,21 @@ h1 {
   font-size:2rem;
 }
 
-section h1, p, ul, li {
-  color:#724937;
+section h1,h2,p, ul, li {
+  color:#A5967B;
 }
 
-.iced-drinks, .hot-drinks, {
+.drinks {
   width:85%;
   margin: 0 auto;
-  color:
+  display:inline-block;
 }
 
  .menu-item-row {
   width: 100%;
-  display:flex;
   justify-content: space-between;
   align-items:flex-start;
-  padding: 0 0 1rem 0;
+  padding: 10px 0 1rem 0;
 }
 
 .menu-item-row p {
@@ -161,6 +159,9 @@ ul.menu-items a:last-of-type {
   width:60%;
 }
 
+.drinks{
+  width:50%
+}
 
 #toggle {
 display:none;
