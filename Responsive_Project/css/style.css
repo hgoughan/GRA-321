@@ -1,6 +1,21 @@
+#coffees-images{
+  height:49%;
+  width:49%;
+}
+
+
+#header{
+  height:100%;
+  margin-top: -200px;
+  width:93%;
+}
+#coffee-images{
+  height:100%;
+  width:100%;
+}
 .sidenav {
   height: 100%;
-  width: 100px;
+  width: 200px;
   position: sticky;
   z-index: 1;
   top: 0;
@@ -17,6 +32,10 @@
   text-decoration: none;
   display: block;
 }
+#sidenav-image{
+  height:150px;
+  width:200px;
+}
 
 /* Change color on hover */
 .sidenav a:hover {
@@ -24,7 +43,7 @@
   color: #804A05;
 }
 .header-nav,#menu, #our-mission, #reviews, #locations {
-  margin-left: 100px;
+  margin-left: 200px;
   padding-left: 20px;
 }
 
@@ -202,3 +221,6 @@ border-top:none;
 }
   ul.menu-items {
 padding: 20px 0 40px 0;
+#header{
+  height:100%;
+  margin-top: -1000px
