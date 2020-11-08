@@ -1,21 +1,53 @@
-#coffees-images{
-  height:49%;
-  width:49%;
+
+#hh{font-family: 'Varela Round', sans-serif;
+font-size: 25px;
+text-align: center;
+padding-top: -100px;
+padding-bottom: 70px;
+}
+h2{font-family: "Times New Roman", serif;
+font-size: 20px;
+}
+li, h3{font-family: 'Varela Round', sans-serif;
+font-size: 16px;
+}
+p{font-family: 'Varela Round'sans-serif;
+font-size:14px;
 }
 
+#coffees-images{
+  height:55%;
+  width:55%;
+}
+#logo-image{
+display: block;
+margin-left: auto;
+margin-right: auto;
+height: 20%;
+width: 20%;
+}
+.drinks{
+  padding-bottom: 30px;
+}
 
 #header{
   height:100%;
-  margin-top: -200px;
-  width:93%;
+  margin-top: -270px;
+  margin-left: -40px;
+  width:70%;
+}
+#footer{
+  height:100%;
+  margin-top: 200px;
+  width:70%;
 }
 #coffee-images{
-  height:100%;
-  width:100%;
+  height:55%;
+  width:55%;
 }
 .sidenav {
   height: 100%;
-  width: 200px;
+  width: 125px;
   position: sticky;
   z-index: 1;
   top: 0;
@@ -23,7 +55,28 @@
   background-color: #804A05;
   overflow-x: hidden;
 }
+.Teas{
+  list-style-type:none;
+  list-style-position: inside;
+  font-size: 25px;
+}
+.Teas_Types{
+  font-size: 21px;
+  text-indent: 50px;
+  list-style-type: none;
+}
+.Iced_Teas{
+  font-style: 21px;
+  list-style-type: none;
+}
+.Refill{
+  font-size: 21px;
+  text-indent: 50px;
 
+}
+.food{
+  list-style-type: none;
+}
 
 /* Side navigation links */
 .sidenav a {
@@ -33,8 +86,8 @@
   display: block;
 }
 #sidenav-image{
-  height:150px;
-  width:200px;
+  height:100px;
+  width:125px;
 }
 
 /* Change color on hover */
@@ -42,9 +95,12 @@
   background-color: #A5967B;
   color: #804A05;
 }
-.header-nav,#menu, #our-mission, #reviews, #locations {
-  margin-left: 200px;
+.header-nav, #menu, #our-mission, #reviews, #locations{
+  margin-left: 150px;
   padding-left: 20px;
+}
+#locations{
+  margin-left: 200px;
 }
 
 li, ul, p {
@@ -64,7 +120,7 @@ h1 {
   font-size:2rem;
 }
 
-section h1, h2, p, ul, li {
+section h1, h2, p, ul, li, h5, h4 {
   color:#A5967B;
 }
 
@@ -86,7 +142,7 @@ section h1, h2, p, ul, li {
 }
 
 .menu-item-row ul {
-  width:60%;
+  width:50%;
   list-style-type: none;
   float: right;
   text-align:right;
@@ -112,6 +168,10 @@ width: 100%;
 .header-nav {
   background-color: #34312E;
   width:100%;
+  font-size: 35px;
+  font-weight: bold;
+  margin: auto;
+  float: right;
 }
 
 .nav-bar {
@@ -120,10 +180,17 @@ width: 100%;
   width: 100%;
   margin: 0 auto;
   position: relative;
-  justify-content: space-between;
-  padding: 30px 0 30px 0;
-}
+  justify-content:space-between;
+  padding: 50px 0px 0px 50px;
+  text-align: center;
 
+}
+#mission{
+  font-size: 16px
+}
+.drink_specials{
+  list-style-type: none;
+}
 #logo {
 height:100px;
 }
@@ -137,13 +204,15 @@ font-size: 50px;
 line-height:100px;
 cursor: pointer;
 background-color: #34312E;
+color: #AE6303;
+align-items: right;
 }
 
 ul.menu-items {
 padding: 20px 0 0 0;
 margin: 0;
 list-style-type: none;
-text-align: left;
+text-align: right;
 
 }
 
@@ -151,7 +220,7 @@ ul.menu-items a {
   text-decoration:none;
   line-height:40px;
   text-align: center;
-  color: #34312E;
+  color: White;
   display:block;
   background-color:#4E2D04;
 }
@@ -167,15 +236,48 @@ ul.menu-items a:last-of-type {
 #toggle:checked ~ ul.menu-items {
   display:none;
 }
-
-#drink-menu, #food-menu, #get-in-touch {
-  height:500px;
+h3{
+  color:#34312E;
 }
-
+.grid-container {
+  display: grid;
+  height: 1000px;
+  align-content: center;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  background-color: #804A05;
+  padding: 10px;
+}
+.review {
+  background-color:#EED9C4;
+text-align: justify;
+padding: 60px 0;
+font-size: 30px;
+}
+#star{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /*Desktop Styles*/
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 600px) {
+  #hh{font-family: 'Varela Round', sans-serif;
+  font-size: 45px;
+  text-align: center;
+  padding-top: -100px;
+  padding-bottom: 70px;
+  }
+  h2{font-family: "Times New Roman", serif;
+  font-size: 35px;
+  }
+  li, h3{font-family: 'Varela Round', sans-serif;
+  font-size: 21px;
+  }
+  p{font-family: 'Varela Round'sans-serif;
+  font-size:25px;
+  }
   .header-nav {
   background-color: #34312E;
   width:90%;
@@ -184,10 +286,25 @@ ul.menu-items a:last-of-type {
     align-items: flex-end;
     justify-content: space-between;
 }
+#header{
+  height:100%;
+  margin-top: -200px;
+  margin-left: -10px;
+  width:93%;
+}
+#footer{
+  height:100%;
+  margin-top: 200px;
+  width:93%;
+}
+#coffee-images{
+  height:70%;
+  width:75%;
+}
 
   .menu-items li a {
   background-color: #34312E;
-    color: #48331E;
+    color: #AE6303;
     border-bottom: 5px solid #48331E;
   }
 
@@ -198,9 +315,6 @@ ul.menu-items a:last-of-type {
   width:60%;
 }
 
-.drinks{
-  width:50%
-}
 
 #toggle {
 display:none;
@@ -221,6 +335,27 @@ border-top:none;
 }
   ul.menu-items {
 padding: 20px 0 40px 0;
-#header{
-  height:100%;
-  margin-top: -1000px
+}
+#our-mission{
+  font-size: 15px;
+}
+#logo-image{
+  height:50%;
+  width:50%;
+}
+.sidenav {
+  height: 100%;
+  width: 200px;
+}
+#sidenav-image{
+  height:150px;
+  width:200px;
+}
+.header-nav, #menu, #our-mission, #reviews, #locations{
+  margin-left: 200px;
+  padding-left: 20px;
+}
+.grid-container {
+  height: 800px;
+}
+}

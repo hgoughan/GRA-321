@@ -6,9 +6,9 @@
     <meta name="description" content="Responsive Project">
     <meta name="keywords" content="Responsive, Project, ASU, School">
     <meta name="author" content="Heather Goughan">
-    <link rel="icon" type="image/JPG" href="https://hgoughan.github.io/gra-321/Responsive_Project/img/logo.jpg"/>
+    <link rel="icon" type="image/jpg/png" href="https://hgoughan.github.io/gra-321/Responsive_Project/img/logo.jpg"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel ="stylesheet" href="https://fonts.google.com/specimen/Varela+Round?preview.text=rounded&preview.text_type=custom&query=roun#standard-styles"
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap">
     <link href="./css/normalize.css" type="text/css" rel="stylesheet">
     <link href="./css/style.css" type="text/css" rel="stylesheet">
   </head>
@@ -32,7 +32,7 @@
 
   <body>
     <div class="sidenav">
-    <a href="#">Menu</a>
+    <a href="header-nav">Menu</a>
     </div>
     <img id="sidenav-image" src="https://hgoughan.github.io/gra-321/Responsive_Project/img/Charlies-Transperent.png" alt="Charlie's Cafe Logo">
 <section id="menu">
@@ -40,8 +40,8 @@
   <img id="header"src="https://hgoughan.github.io/gra-321/Responsive_Project/img/Header.jpg" alt="Coffee Collage">
 </body>
 
-  <img id="coffee-images"src="https://hgoughan.github.io/gra-321/Responsive_Project/img/Mustache.png" alt="Mustache Logo">
-  <h1>Charlie's Café Menu</h1>
+  <img id="logo-image"src="https://hgoughan.github.io/gra-321/Responsive_Project/img/Mustache.png" alt="Mustache Logo">
+  <h1 id="hh">Charlie's Café Menu</h1>
       <div class="drinks">
   <h2>STANDARD HOT DRINKS</h2>
   <div class="menu-item-row">
@@ -171,8 +171,6 @@
       </ul>
     </div>
   </div>
-
-    <div class="drinks">
 <h2>ICED DRINKS</h2>
 <div class="menu-item-row">
  <p class="drink-name">Coffee</p>
@@ -251,20 +249,20 @@
     <h2>DRINK SPECIALS</h2>
     <div>
     <ul class="drink_specials">
-        <li>Mochaccino:</li>
-        <p>Who decided to just add chocolate to everything? Whoever it was, they are a genius.</p>
-        <li>White Chocolate Raspberry Latte:</li>
-        <p>ADDICTED? NO…. CAN I HAVE ANOTHER?</p>
-        <li>Cinnamon Iced Hot Chocolate: </li>
-        <p>Whoa, iced hot chocolate? It can’t get much better than this --- and cinnamon? </p>
-        <li>Dark Chocolate Raspberry Latte:</li>
-        <p> A latte a day keeps the doctor away. Yup. I’m pretty sure that’s how it goes. </p>
-        <li>Thai Iced Cappuccino: </li>
-        <p>Channel your inner exotic spirit with a double shot of espresso finished with sweetened condensed milk.</p>
-        <li>Joyous Almond Latte: </li>
-        <p>Imagine drinking a candy bar… only better!!</p>
-        <li>Banana Nut Mocha: </li>
-        <p>You’ll go BANANAS!! It’s so yum…yep. Just yum! <br>*all specials are either double or triple shots</p>
+        <p>Mochaccino:</p>
+        <li>Who decided to just add chocolate to everything? Whoever it was, they are a genius.</li>
+        <p>White Chocolate Raspberry Latte:</p>
+        <li>ADDICTED? NO…. CAN I HAVE ANOTHER?</li>
+        <p>Cinnamon Iced Hot Chocolate: </p>
+        <li>Whoa, iced hot chocolate? It can’t get much better than this --- and cinnamon? </li>
+        <p>Dark Chocolate Raspberry Latte:</p>
+        <li> A latte a day keeps the doctor away. Yup. I’m pretty sure that’s how it goes. </li>
+        <p>Thai Iced Cappuccino: </p>
+        <li>Channel your inner exotic spirit with a double shot of espresso finished with sweetened condensed milk.</li>
+        <p>Joyous Almond Latte: </p>
+        <li>Imagine drinking a candy bar… only better!!</li>
+        <p>Banana Nut Mocha: </p>
+        <li>You’ll go BANANAS!! It’s so yum…yep. Just yum! <br>*all specials are either double or triple shots</li>
         </div>
       <h2>Hot Teas</h2>
       <div>
@@ -272,7 +270,7 @@
         <li>Black Tea</li>
       <div>
       <ul class="Teas_Types">
-        <li>Earl Grey</li>
+          <li>Earl Grey</li>
           <li>English Breakfast</li>
           <li>Chai</li>
       </div>
@@ -299,9 +297,14 @@
              <li>Moroccan Mint Green </li>
              <li>Black Passion Fruit </li>
              <li>Cucumber Mint Lemonade</li>
-             <p> $1 Refills on Iced Teas<br>$1.50 Refills on Ice Coffee <br>*When you keep your cup!</p>
            </ul>
            </div>
+           <div class="Refill">
+             <h4>$1 Refills on Iced Teas</h4>
+             <h4>$1.50 Refills on Ice Coffee </h4>
+             <h4>*When you keep your cup!</h4>
+           </div>
+
            <img id="coffee-images"src="https://hgoughan.github.io/gra-321/Responsive_Project/img/Tea.jpg">
              <h2>PANINI/GRILLED SANDWICHES </h2>
              <ul class="food">
@@ -331,51 +334,53 @@
                    <li> Everything</li>
                    <li>Onion</li>
                    <li>Egg</li>
-                   <p>Cream Cheese: Plain, Strawberry, Veggie <br>Extra; $ 0.50</p>
+                   <h4>Cream Cheese: Plain, Strawberry, Veggie <br>Extra: $ 0.50</h4>
                  </ul>
                </section>
                <div class="sidenav">
-               <a href="#">Our Mission</a>
+               <a href="header-nav">Our Mission</a>
              </div>
                <section id= "our-mission">
                   <img id="coffees-images" src="https://hgoughan.github.io/gra-321/Responsive_Project/img/Food.jpg">
-                 <p>Founded in 1991 Charlie's Café, is one of Sun Devil Dining’s local
-                   restaurant partners, brings the taste of Europe to ASU! Proudly serving
-                   Lavazza Italian espresso and featuring fresh European sandwiches and baked
-                   goods. Come experience the difference! With three locations on campus, there
-                   is always a Charlie's Café near! Charlie’s Café is located at the Hayden Library,
+                 <p>Founded in 1991 Charlie's Café, is one of Sun Devil Dining’s local <br>
+                   restaurant partners, brings the taste of Europe to ASU! Proudly serving <br>
+                   Lavazza Italian espresso and featuring fresh European sandwiches<br>and baked
+                   goods. Come experience the difference! With three<br> locations on campus, there
+                   is always a Charlie's Café near! Charlie’s Café <br> is located at the Hayden Library,
                    Bio Design B Building and the College of Design.</p>
                  </section>
                  <div class="sidenav">
-                 <a href="#">Reviews</a>
+                 <a href="header-nav">Reviews</a>
                </div>
                  <section id="reviews">
-                 <div class="review_1">
-                   <h4>Emma M.<br>Scottsdale, AZ<br>I LOVE this place. The food and drinks are
+                   <div class="grid-container">
+                 <div class="review">
+                   <h3>Emma Maddison:<br>From Scottsdale, AZ<br>"I LOVE this place. The food and drinks are
                      incredible and on top of that, I really don't think I've ever met anyone nicer
                      than the staff. I always go to the one in ASU's design building and I've never
                      ever once had a bad experience. I'm in college, and tight on cash, and the employees
                      always help me pick the best drinks that are inexpensive. Amazing, every employee here
-                     definitely deserves a raise!!</h4>
+                     definitely deserves a raise!!"</h3>
                    </div>
-                   <div class="review_2">
-                     <h4>Lindsey O'Brien recommends Charlie's Cafe. December 7 2017· <br>
-                       They kept me going this semester.<br>
-                       Thank God for half off drinks after 4 p.m.</h4>
+                   <div class="review">
+                     <h3>Lindsey O'Brien: <br>Recommended Charlie's Cafe on December 7 2017 <br>
+                       "They kept me going this semester.<br>
+                       Thank God for half off drinks after 4 p.m."</h3>
                      </div>
-                  <div class="review_3">
-                    <h4>Morgan Waddell recommends Charlie's Cafe. November 16, 2018· <br>
-                      Great coffee, food, and service!</h4>
+                  <div class="review">
+                    <h3>Morgan Waddell: <br>Recommended Charlie's Cafe on November 16, 2018· <br>
+                      "Great coffee, food, and service!"</h3>
                     </div>
-                    <div class="review_4">
-                      <h4>Wes Edens recommends Charlie's Cafe. March 30, 2017· <br>Killer panini sandwiches, friendly staff,
-                        and you can't beat the library location.<br> Especially if you're a librarian.
-                           <img src="https://hgoughan.github.io/gra-321/Responsive_Project/img/Star.png">
+                    <div class="review">
+                      <h3>Wes Edens: <br>Recommended Charlie's Cafe. March 30, 2017· <br>"Killer panini sandwiches, friendly staff,
+                        and you can't beat the library location.<br> Especially if you're a librarian."</h3>
                          </div>
+                         <img id="star"src="https://hgoughan.github.io/gra-321/Responsive_Project/img/Star.png">
+                       </div>
                        </section>
                        <div class="sidenav">
-                       <a href="#">Locations</a>
-                     </div
+                       <a href="header-nav">Locations</a>
+                     </div>
                           <section id="locations">
                           <h2>Charlie’s Cafe Biodesign</h2>
                           <p>Monday - Friday: 7 a.m. - 4 p.m. <br>Saturday - Sunday: Closed</p>
@@ -383,9 +388,9 @@
                           <p>Monday - Friday: 7 a.m. - 3 p.m. <br>Saturday - Sunday: Closed</p>
                           <h2>Charlie’s Cafe Design North</h2>
                           <p>Monday - Friday: 7 a.m. - 3 p.m.<br>Saturday - Sunday: Closed</p>
-                          <h3>Each location has its own personality, find the one that suits you!<h3>
+                          <img id="star"src="https://hgoughan.github.io/gra-321/Responsive_Project/img/Map.jpg">
+                          <h4>Each location has its own personality, find the one that suits you!<h4>
                           <h5>General Managers:<br>Melissa & Erik Ondo <br>charliescafesm@outlook.com</h5>
-
+                            <img id="footer" src="https://hgoughan.github.io/gra-321/Responsive_Project/img/Footer.jpg">
                           </section>
-                            <img src="https://hgoughan.github.io/gra-321/Responsive_Project/img/Footer.jpg">
 </html>
