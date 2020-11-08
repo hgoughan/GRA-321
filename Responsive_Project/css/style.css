@@ -29,6 +29,11 @@ width: 20%;
 .drinks{
   padding-bottom: 30px;
 }
+#Map{
+  width:35%;
+  height:30%;
+
+}
 
 #header{
   height:100%;
