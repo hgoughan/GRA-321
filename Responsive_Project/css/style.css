@@ -90,6 +90,7 @@ width: 20%;
   display: block;
 }
 #sidenav-image{
+  padding-top: 35px;
   height:100px;
   width:125px;
 }
