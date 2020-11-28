@@ -358,4 +358,10 @@ padding: 20px 0 40px 0;
 .grid-container {
   height: 800px;
 }
+#header{
+  max-width:1100px;
+}
+ #menu, #our-mission, #reviews, #locations{
+   max-width: 1000px;
+ }
 }
